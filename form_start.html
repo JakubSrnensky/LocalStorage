@@ -1,0 +1,32 @@
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="script.js"></script>
+<link rel="stylesheet" href="style.css" media="all" />
+
+<form class="localStorageSet" onsubmit="submitForm()">
+    <fieldset>
+        <label>
+            Jméno
+        </label>
+        <input type="text" class="name">
+        <span role="alert" class="error"> Prosím vyplň jméno </span>
+    </fieldset>
+
+    <fieldset>
+        <label>
+            Příjmení
+        </label>
+        <input type="text" class="surname">
+        <span role="alert" class="error"> Prosím vyplň píjmení </span>
+    </fieldset>
+
+    <fieldset>
+        <label>
+            Ověření že nejsi robot (1+1).
+        </label>
+        <input type="number" class="check-validation">
+        <span role="alert" class="error"> Spočítej příklad </span>
+    </fieldset>
+
+    <button type="submit" class="btn">Odeslat</button>
+</form>
